@@ -1,4 +1,4 @@
-package com.github.acussena.study_apiw;
+package com.github.acussena.study_apiw.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ControllerPing {
 
     @GetMapping
-    public String ping(){
+    public String ping() {
         return "pong";
     }
 }
