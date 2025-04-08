@@ -1,6 +1,12 @@
 package com.github.acussena.study_apiw.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Produto {
+
+    @Id
     private Long id;
     private String nome;
 
